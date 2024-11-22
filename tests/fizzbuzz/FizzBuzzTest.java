@@ -41,4 +41,9 @@ public class FizzBuzzTest {
 		assertEquals(FizzBuzz.fizzbuzz(13), "13");
 		assertEquals(FizzBuzz.fizzbuzz(20), "buzz");
 	}
+	
+	@Test
+	void testFizzQinze() {
+		assertEquals(FizzBuzz.fizzbuzz(15), "fizzbuzz");
+	}
 }
