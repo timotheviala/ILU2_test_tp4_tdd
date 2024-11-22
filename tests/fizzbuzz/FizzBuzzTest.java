@@ -21,4 +21,11 @@ public class FizzBuzzTest {
 	void testFizzTrois() {
 		assertEquals(FizzBuzz.fizzbuzz(3),"fizz");
 	}
+	
+	@Test
+	void testFizzPlusieursVal() {
+		assertEquals(FizzBuzz.fizzbuzz(4), "4");
+		assertEquals(FizzBuzz.fizzbuzz(6),"fizz");
+		assertEquals(FizzBuzz.fizzbuzz(7), "7");
+	}
 }
