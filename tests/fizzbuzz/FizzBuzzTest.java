@@ -46,4 +46,13 @@ public class FizzBuzzTest {
 	void testFizzQinze() {
 		assertEquals(FizzBuzz.fizzbuzz(15), "fizzbuzz");
 	}
+	
+	@Test
+	void testFizzValeursDiff() {
+		assertEquals(FizzBuzz.fizzbuzz(360), "fizzbuzz");
+		assertEquals(FizzBuzz.fizzbuzz(33), "fizz");
+		assertEquals(FizzBuzz.fizzbuzz(47), "47");
+		assertEquals(FizzBuzz.fizzbuzz(3000), "fizzbuzz");
+		assertEquals(FizzBuzz.fizzbuzz(55),"buzz");
+	}
 }
